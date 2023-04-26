@@ -60,3 +60,268 @@
     }
 }
 
+/* Omar Juma css begins here */
+/* The first part of omar's code */
+.block-section-normal {
+    background: #fff;
+    margin-top: 10rem;
+}
+.block {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.block-container-section-bg .block-content {
+    max-width: 33rem;
+}
+.block-what-we-offer .block-container {
+    margin-bottom: 0;
+}
+.block-container-section {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.block-section-normal .block-content-top {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.block-container {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.block-section-normal .block-content-top {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.text-title{
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.text-title span {
+    position: relative;
+    display: inline;
+    border-bottom: 2px solid #ff490d;
+    line-height: 1.2;
+}
+.text-title+.text-subtitle {
+    margin-top: 1.5rem;
+}
+.text-subtitle {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    max-width: 33rem;
+}
+.btn{
+    margin-top: 2.5rem;
+    display: inline-block;
+    color: #ff490d;
+    background-color: #FFFAF5;
+        border:1px solid #ff490d;
+    font-size: .95em;
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
+    text-align: center;
+    box-shadow: 0px 0px 1.25rem 0px rgba(29,29,29,0.1);
+    line-height: 1;
+    font-weight: bold;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+.block-content-partners {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+}
+.block-content-partners .partners-container .partners-item {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0 2rem;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+.block-content-partners .partners-container {
+    display: -webkit-box;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.partners-item{
+    padding: 0 36px;
+}
+
+.partners-item-image{
+    margin-bottom: 2rem;
+}
+.block-content-partners .partners-container .partners-item .partners-item-title {
+    font-weight: bold;
+    color: #ff490d;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+img{
+    width: 100%;
+    height:60px;
+}
+.text-highlight-small {
+    text-align: center;
+    line-height: 1;
+    font-family: "A",sans-serif;
+    font-size: .85rem;
+    color: #ff490d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.scroll-down img {
+    margin: 0 auto;
+    display: block;
+    height:18px;
+    width:22px;
+    animation: bounce .75s infinite ease-in-out alternate;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+/* The second part of omar's code */
+.block-container-section-bg .block-left {
+    width: 50%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;}
+.block-section-bg {
+    width: 100%;
+    background-color: #FFFAF5;
+}
+.block {
+    position: relative;
+    /* width: 100%; */
+    display: block;
+}
+/* .block-container-section-bg .block-section-bg-image img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+} */
+ol, ul {
+    list-style:none;
+    
+}
+ol.steps-list {
+gap:1rem;
+    list-style-type: none;
+    list-style-type: decimal;
+    margin-left: -2rem;
+    margin-top: 1.5rem;
+    counter-reset: li-counter;
+}ol.steps-list li:before {
+    
+    top: 0.1em;
+    padding-top: 0.125em;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #ff490d;
+    background: transparent;
+    border: 1px solid #ff490d;
+    border-radius: 2rem;
+    text-align: center;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+}
+ol.steps-list li {
+    /* display: -webkit-box; */
+gap:0.5rem;    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0.25em;
+}
+.button, .af-submit-button {
+    margin-top: 1.5rem;
+    color: #fff;
+    display: inline-block;
+    background-color: #ff490d;
+    font-size: .95em;
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
+    text-align: center;
+    box-shadow: 0px 0px 1.25rem 0px rgba(29,29,29,0.1);
+    line-height: 1;
+    font-weight: bold;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.block-container-section-bg .block-right {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+.block-container-section-bg .block-section-bg-image {
+    width: 100%;
+    /* max-width: 26rem; */
+    position: absolute;
+    bottom: -2rem;
+    right: 0;
+}
+.block-section-bg-image img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
+@media screen and (max-width:768px) {
+    .block-section-bg-image img {
+        height: 100%;
+        width: 200%;
+        -o-object-fit: contain;
+        object-fit: contain;
+        max-width: unset;
+        -o-object-position: center bottom;
+        object-position: center bottom;
+    }
+}
+
+/* Omar Juma css ends here */
